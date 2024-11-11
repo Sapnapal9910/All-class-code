@@ -1,0 +1,25 @@
+package statedemo;
+
+public class Ifelsecondition3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int one = 200;
+		int two = 400;
+		int three = 900;
+		
+		if(one > two) {
+			if( two > three)
+				System.out.println("Greater : "+one);
+			else	
+				System.out.println("Greater : "+three);
+		}
+		
+		else {
+			if(two > three)
+				System.out.println("Greater : "+two);
+			else
+				System.out.println("Greater : "+three);
+		}
+	}
+}
