@@ -1,0 +1,16 @@
+package statedemo;
+
+public class Ifelsecondition2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int one = 500;
+		int two = 200;
+		
+		if(one > two)
+		System.out.println("Greater : "+one);
+		else
+		System.out.println("Greater : "+two);
+	}
+
+}
