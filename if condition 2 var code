@@ -1,0 +1,19 @@
+package statedemo;
+
+public class Ifcondition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int first = 30;                      // initialization statement
+		 int second = 50;                     // initialization ststement
+		 int max;                             // declaration statement
+		 
+		 if(first < second)                   // condition 30>50--> false 
+		 {
+		   max = second;
+	       System.out.println("Greater Value : "+max);		 
+		 }
+		 System.out.println("Program executed");
+	}
+
+}
